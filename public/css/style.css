@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background: linear-gradient(25deg, rgba(29, 173, 16, 0.9), rgba(8, 78, 209, 0.9)),
+                url(../img/bg.png);
+}
+
+body, html #home {
+    height: 100%;
+    color: white;
+}
+
+#logo {
+    margin-top: 100px;
+}
+
+input {
+    background: rgb(156, 255, 156);
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+button {
+    background: rgb(18, 189, 33);
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+input, button {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.result {
+    font-family: sans-serif;
+}

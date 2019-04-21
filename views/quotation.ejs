@@ -1,0 +1,32 @@
+<%- include('header') %>
+
+
+        <div id="home" class="d-flex">
+			<div class="container align-self-center">
+				<div class="row">
+					<div class="col-md-12 text-center">
+
+						<h1><a href="/"><img src="/img/logo.png" alt="Euro Today" id="logo"></a></h1>
+                        <div class='result'>
+                            <% if(err){ %>
+                                <%= err %>
+                            <% }else{ %>
+                                <%= amount %> 
+                                dollars are worth 
+                                <%= conversion %> Euros! (Quotation: <%= quotation %>)
+                            <% } %>
+                        </div>
+                        <br><br>
+                        
+                        <form method="GET" action="/">
+                            <button>RETURN</button>
+                        </form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+    
+
+<%- include('footer')%>

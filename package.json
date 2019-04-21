@@ -1,0 +1,19 @@
+{
+  "name": "convert-my-money",
+  "version": "1.0.0",
+  "description": "Money converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "Vitor Lima",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}

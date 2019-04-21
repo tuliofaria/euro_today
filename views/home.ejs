@@ -1,0 +1,23 @@
+<%- include('header') %>
+
+		<div id="home" class="d-flex">
+			<div class="container align-self-center">
+				<div class="row">
+					<div class="col-md-12 text-center">
+
+						<h1><a href="/"><img src="/img/logo.png" alt="Euro Today" id="logo"></a></h1>
+						<br><br>
+						<form method="GET" action="/quotation">
+							<input type="number" name="quotation" placeholder="EUR quotation"><br><br>
+							<input type="number" name="amount" placeholder="USD amount"><br><br>
+							<button>CONVERT</button>
+						</form>
+						<br><br><br><br><br>
+ 						<p>Convert your dollars to Euros! This web application was developed by Vitor Lima using Node.js and Express.js!</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+<%- include('footer')%>
